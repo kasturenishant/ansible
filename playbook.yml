@@ -1,6 +1,6 @@
 --- 
 - name: This is first play 
-  hosts: all
+  hosts: "3.96.206.93"
   tasks:
   - name: check if machine is reachable
     ping:
